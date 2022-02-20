@@ -25,19 +25,32 @@ a {
  width: 100vw;
 }
 
-.App-content {
+.wrapper {
+  text-align: center;
+  font-size: 24px;
   top: 8.5rem;
   position: relative;
-  min-height: calc(100vh - 8.5rem);  text-align: center;
-  font-size: 24px;
+  min-height: calc(100vh - 8.5rem);
   background: url("background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.home {
   color: white;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.schedule {
+  position: relative;
+  top: 50px;
+  background-color: rgba(255, 255, 255, 0.60);
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .photo {
@@ -65,8 +78,14 @@ a {
   line-height: 2rem;
 }
 
+.nav-icon, .nav-text {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 3px;
+}
+
 @media screen and (max-width: 768px) {
-  .App-content {
+  .home {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 100%;
@@ -75,13 +94,33 @@ a {
   .right {
     grid-row: 1;
   }
+  .schedule {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .nav {
     display: none;
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 499px) {
   .nav-mobile {
     display: none;
   }
+}
+
+.MuiStepIcon-root.Mui-active {
+  color: #3A2925 !important;
+}
+
+.MuiStepIcon-root {
+  color: rgba(58, 41, 37, 0.5) !important
+}
+
+.step-content {
+  text-align: left;
+  font-size: 1rem;
+  max-width: 400px;
 }
