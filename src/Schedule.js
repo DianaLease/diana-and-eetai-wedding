@@ -29,10 +29,8 @@ const steps = [
 ];
 
 const Home = () => (
-  <div className="wrapper">
-    <div className="schedule">
-      <VerticalStepper steps={steps} />
-    </div>
+  <div className="schedule">
+    <VerticalStepper steps={steps} />
   </div>
 )
 
