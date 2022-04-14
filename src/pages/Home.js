@@ -1,4 +1,4 @@
-import us from './us.jpeg';
+import us from '../us.jpeg';
 
 const Home = () => (
   <div className="home">

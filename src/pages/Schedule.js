@@ -1,4 +1,4 @@
-import VerticalStepper from './components/VerticalStepper';
+import VerticalStepper from '../components/VerticalStepper';
 
 const steps = [
   {
