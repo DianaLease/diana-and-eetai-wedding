@@ -29,10 +29,10 @@ function App() {
               <AccessTimeFilledIcon className="nav-icon" fontSize="small" />
               <span className="nav-text">Schedule</span>
             </Link>
-            {/* <Link to="/accomodations">
+            <Link to="/accomodations">
               <HotelIcon className="nav-icon" fontSize="small" />
               <span className="nav-text">Accomodations</span>
-            </Link> */}
+            </Link>
               <a href="https://g.page/MollyPitcherInn?share" target="_blank" rel="noreferrer">
                 <DirectionsCarIcon className="nav-icon" fontSize="small" />
                 <span className="nav-text">Directions</span>
@@ -40,16 +40,16 @@ function App() {
           </div>
           <div className="nav-mobile">
           <Link to="/">
-              <HomeIcon className="nav-icon" fontSize="small" />
+              <HomeIcon className="nav-icon" fontSize="medium" />
             </Link>
             <Link to="/schedule">
-              <AccessTimeFilledIcon className="nav-icon" fontSize="small" />
+              <AccessTimeFilledIcon className="nav-icon" fontSize="medium" />
             </Link>
             <Link to="/accomodations">
-              <HotelIcon className="nav-icon" fontSize="small" />
+              <HotelIcon className="nav-icon" fontSize="medium" />
             </Link>
-              <a href="https://g.page/MollyPitcherInn?share">
-                <DirectionsCarIcon className="nav-icon" fontSize="small" />
+              <a href="https://g.page/MollyPitcherInn?share" target="_blank" rel="noreferrer">
+                <DirectionsCarIcon className="nav-icon" fontSize="medium" />
               </a>
           </div>
         </header>

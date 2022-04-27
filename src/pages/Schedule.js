@@ -29,7 +29,7 @@ const steps = [
 ];
 
 const Home = () => (
-  <div className="schedule">
+  <div className="content-wrapper">
     <VerticalStepper steps={steps} />
   </div>
 )

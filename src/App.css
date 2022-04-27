@@ -19,14 +19,23 @@ header {
   height: 8.5rem;
   text-align: center;
   background-color: white;
-  color: #3A2925;
+  color: #518E95;
   z-index: 999;
 }
 
 a {
-  text-decoration: none;
+  color: inherit;
+}
+
+.nav a {
   padding: 10px;
-  color: #3A2925;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .App {
@@ -34,8 +43,7 @@ a {
 }
 
 .main {
-  text-align: center;
-  font-size: 24px;
+  display: flex;
   min-height: 100vh;
   padding-top: 8.5rem;
   position: relative;
@@ -47,18 +55,20 @@ a {
 }
 
 .home {
+  flex-grow: 1;
+  max-width: 1000px;
+  margin: auto;
   color: white;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.schedule {
-  position: relative;
-  top: 50px;
-  background-color: rgba(255, 255, 255, 0.60);
+.content-wrapper {
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 25px;
-  margin: 0 auto;
-  max-width: 500px;
+  margin: 50px auto;
+  align-self: center;
+  width: 500px;
 }
 
 .photo {
@@ -76,14 +86,15 @@ a {
 }
 
 .details {
+  text-align: center;
+  font-size: 1.85rem;
   background-color: rgba(255, 255, 255, 0.25);
   margin: 10%;
   padding: 25px;
   max-width: 80%;
   border: 10px solid rgba(255, 255, 255, 0.9);
-  text-shadow: 1px 1px 7px #3a2925;
+  text-shadow: 1px 1px 7px #955851;
   font-weight: 500;
-  line-height: 2rem;
 }
 
 .nav-icon, .nav-text {
@@ -92,12 +103,19 @@ a {
   margin: 0 3px;
 }
 
+.launch-icon {
+  vertical-align: bottom;
+  margin: 0 5px;
+}
+
 @media screen and (max-width: 768px) {
   .home {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 100%;
-    font-size: 1.25rem;
+  }
+  .details {
+    font-size: 1.5rem;
   }
   .right {
     grid-row: 1;
@@ -111,6 +129,12 @@ a {
   .nav {
     display: none;
   }
+  .nav-icon {
+    margin: 0 10px;
+  }
+  .content-wrapper {
+    max-width: 350px;
+  }
 }
 
 @media screen and (min-width: 499px) {
@@ -120,15 +144,24 @@ a {
 }
 
 .MuiStepIcon-root.Mui-active {
-  color: #3A2925 !important;
+  color: #7BB1B7 !important;
 }
 
 .MuiStepIcon-root {
-  color: rgba(58, 41, 37, 0.5) !important
+  color: rgba(58, 41, 37, 0.5) !important;
 }
 
 .step-content {
-  text-align: left;
   font-size: 1rem;
   max-width: 400px;
+}
+
+.hotel {
+  border-bottom: 1px solid #7BB1B7;
+  padding-bottom: 25px;
+  font-size: .85rem;
+}
+
+.hotel:last-child {
+  border-bottom: 0;
 }
