@@ -19,12 +19,12 @@ const steps = [
   {
     label: 'Late Night',
     time: '11:00pm', 
-    location: 'Finger foods and cash bar at the International Bar'
+    location: 'Finger foods and cash bar at the International Bar at the Molly Pitcher'
   },
   {
     label: 'Breakfast',
     time: '9:00am Sunday', 
-    location: 'Breakfast Buffet in The Navesink Room'
+    location: 'Breakfast Buffet in The Navesink Room at the Molly Pitcher'
   }
 ];
 
