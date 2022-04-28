@@ -30,7 +30,6 @@ const Directions = () => (
     <p>
       From Penn Station New York, take the North Jersey Coast Line train (toward Long Branch) to Red Bank Station. The Molly Pitcher Inn is a 9 minute walk from the Red Bank train station. <a href="https://www.njtransit.com/" target="_blank" rel="noreferrer">Buy tickets via NJ Transit<LaunchIcon className="launch-icon" sx={{ fontSize: ".85rem" }} /></a>
     </p>
-
   </div>
 )
 

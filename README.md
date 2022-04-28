@@ -1,3 +1,9 @@
+# Diana and Eetai's Wedding
+
+This is a website I made with information about our wedding.
+
+https://www.dianaandeetai.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
