@@ -151,6 +151,10 @@ ul {
   color: rgba(58, 41, 37, 0.5) !important;
 }
 
+.MuiStepLabel-root {
+  cursor: pointer;
+}
+
 .step-content {
   font-size: 1rem;
   max-width: 400px;
