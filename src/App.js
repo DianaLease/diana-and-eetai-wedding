@@ -10,9 +10,10 @@ import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import HotelIcon from '@mui/icons-material/Hotel';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 
-import Home from './pages/Home'
-import Schedule from './pages/Schedule'
-import Accomodations from './pages/Accomodations'
+import Home from './pages/Home';
+import Schedule from './pages/Schedule';
+import Accomodations from './pages/Accomodations';
+import Directions from './pages/Directions';
 
 function App() {
   return (
@@ -33,10 +34,10 @@ function App() {
               <HotelIcon className="nav-icon" fontSize="small" />
               <span className="nav-text">Accomodations</span>
             </Link>
-              <a href="https://g.page/MollyPitcherInn?share" target="_blank" rel="noreferrer">
-                <DirectionsCarIcon className="nav-icon" fontSize="small" />
-                <span className="nav-text">Directions</span>
-              </a>
+            <Link to="/directions">
+              <DirectionsCarIcon className="nav-icon" fontSize="small" />
+              <span className="nav-text">Directions</span>
+            </Link>
           </div>
           <div className="nav-mobile">
           <Link to="/">
@@ -48,9 +49,9 @@ function App() {
             <Link to="/accomodations">
               <HotelIcon className="nav-icon" fontSize="medium" />
             </Link>
-              <a href="https://g.page/MollyPitcherInn?share" target="_blank" rel="noreferrer">
-                <DirectionsCarIcon className="nav-icon" fontSize="medium" />
-              </a>
+            <Link to="/directions">
+              <DirectionsCarIcon className="nav-icon" fontSize="medium" />
+            </Link>
           </div>
         </header>
         <div className="main">
@@ -58,7 +59,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/schedule" element={<Schedule />}/>
             <Route path="/accomodations" element={<Accomodations />}/>
-            <Route path="/directions" element={<Home />}/>
+            <Route path="/directions" element={<Directions />}/>
           </Routes>
         </div>
       </div>

@@ -12,6 +12,10 @@ h1 {
   line-height: 2rem;
 }
 
+h2 {
+  text-align: center;
+}
+
 header {
   position: fixed;
   top: 0;
