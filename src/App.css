@@ -76,7 +76,7 @@ ul {
 }
 
 .photo {
-  max-width: 80%;
+  width: 80%;
   margin: 10%;
   border: 15px solid rgba(255, 255, 255, 0.9);
 }
@@ -91,11 +91,11 @@ ul {
 
 .details {
   text-align: center;
-  font-size: 1.85rem;
-  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 1.55rem;
+  background-color: rgba(149,88,81, 0.25);
   margin: 10%;
   padding: 25px;
-  max-width: 80%;
+  width: 80%;
   border: 10px solid rgba(255, 255, 255, 0.9);
   text-shadow: 1px 1px 7px #955851;
   font-weight: 500;
