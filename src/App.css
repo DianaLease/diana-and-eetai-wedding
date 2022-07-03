@@ -107,7 +107,7 @@ ul {
   margin: 0 3px;
 }
 
-.launch-icon {
+.launch-icon, .paid-icon {
   vertical-align: bottom;
   margin: 0 5px;
 }
@@ -129,7 +129,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
   .nav {
     display: none;
   }
@@ -141,7 +141,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 499px) {
+@media screen and (min-width: 600px) {
   .nav-mobile {
     display: none;
   }

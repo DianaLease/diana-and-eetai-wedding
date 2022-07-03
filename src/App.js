@@ -9,11 +9,13 @@ import HomeIcon from '@mui/icons-material/Home';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import HotelIcon from '@mui/icons-material/Hotel';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 
 import Home from './pages/Home';
 import Schedule from './pages/Schedule';
 import Accomodations from './pages/Accomodations';
 import Directions from './pages/Directions';
+import Gifts from './pages/Gifts';
 
 function App() {
   return (
@@ -38,6 +40,10 @@ function App() {
               <DirectionsCarIcon className="nav-icon" fontSize="small" />
               <span className="nav-text">Directions</span>
             </Link>
+            <Link to="/gifts">
+              <CardGiftcardIcon className="nav-icon" fontSize="small" />
+              <span className="nav-text">Gifts</span>
+            </Link>
           </div>
           <div className="nav-mobile">
           <Link to="/">
@@ -52,6 +58,9 @@ function App() {
             <Link to="/directions">
               <DirectionsCarIcon className="nav-icon" fontSize="medium" />
             </Link>
+            <Link to="/gifts">
+              <CardGiftcardIcon className="nav-icon" fontSize="medium" />
+            </Link>
           </div>
         </header>
         <div className="main">
@@ -60,6 +69,7 @@ function App() {
             <Route path="/schedule" element={<Schedule />}/>
             <Route path="/accomodations" element={<Accomodations />}/>
             <Route path="/directions" element={<Directions />}/>
+            <Route path="/gifts" element={<Gifts />}/>
           </Routes>
         </div>
       </div>
