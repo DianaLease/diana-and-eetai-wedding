@@ -24,7 +24,7 @@ const steps = [
   {
     label: 'Breakfast',
     time: '9:00am Sunday', 
-    location: 'Breakfast Buffet & Mimosas in the Navesink Room at the Molly Pitcher'
+    location: 'Breakfast buffet & mimosas in the Navesink Room at the Molly Pitcher'
   }
 ];
 
