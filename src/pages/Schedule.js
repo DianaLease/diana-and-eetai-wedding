@@ -9,7 +9,7 @@ const steps = [
   {
     label: 'Cocktail Hour',
     time: '6:00pm', 
-    location: 'Drinks and hors d\'oeuvres inside with access to outdoor tables on the promenade'
+    location: 'Drinks and hors d\'oeuvres in the Southampton Room and outdoor tables on the promenade'
   },
   {
     label: 'Reception',
@@ -19,12 +19,12 @@ const steps = [
   {
     label: 'Late Night',
     time: '11:00pm', 
-    location: 'Finger foods and cash bar at the International Bar at the Molly Pitcher'
+    location: 'Finger foods and cash bar in the Tea Room at the Molly Pitcher'
   },
   {
     label: 'Breakfast',
     time: '9:00am Sunday', 
-    location: 'Breakfast Buffet in The Navesink Room at the Molly Pitcher'
+    location: 'Breakfast Buffet & Mimosas in the Navesink Room at the Molly Pitcher'
   }
 ];
 
